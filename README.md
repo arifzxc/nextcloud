@@ -32,7 +32,7 @@ Unzip file latest.zip
 ```
 unzip latest.zip
 ```
-Kasih Permission Ke foldernya
+Kasih permission ke foldernya
 ```
 chmod -R 755 nextcloud/
 chown -R www-data:www-data nextcloud/
