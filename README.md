@@ -50,7 +50,7 @@ sh linuxdebian.sh
 
 <b><h3> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b></h3>
 
-<b><h3> Linux Ubuntu, biasanya menggunakan mysql : </b></h3>
+<b> Linux Ubuntu, biasanya menggunakan mysql : </b>
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
@@ -58,7 +58,7 @@ php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick php-zip php-mbstring  
 ```
 
-<b><h3> Linux Debian, biasanya menggunakan mariadb : </b></h3>
+<b> Linux Debian, biasanya menggunakan mariadb : </b>
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
