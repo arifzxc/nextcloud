@@ -1,3 +1,4 @@
+# Masuk sebagai superuser (root) terlebih dahulu, agar mempermudah proses instalasi. 
 
 apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
