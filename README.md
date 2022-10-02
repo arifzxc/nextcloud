@@ -11,7 +11,7 @@ Solusi mandiri kami memastikan Anda tahu di mana data berada, siapa yang memilik
 
 # Disini saya mempunyai 2 pilihan penginstalan
 
-# 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
+<b><h2> 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
    
 <b><h3> Cara menjalankannya : </b></h3>
 
@@ -46,9 +46,9 @@ sh linuxubuntu.sh
 sh linuxdebian.sh
 ```
 
-# 2. Dengan command line, silahkan ikuti perintah dibawah ini 
+<b><h2> 2. Dengan command line, silahkan ikuti perintah dibawah ini. </b></h2>
 
-<b><h2> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b></h2>
+<b><h3> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b></h3>
 
 <b><h3> Linux Ubuntu, biasanya menggunakan mysql : </b></h3>
 ```
