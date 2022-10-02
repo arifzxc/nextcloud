@@ -3,20 +3,22 @@ Install Nextcloud Armbian
 
 Disini saya mempunyai 2 pilihan
 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan
-   auto selesai dengan sendirinya
+   auto selesai dengan sendirinya.
+   
 Cara menjalankannya:
-install git terlebih dahulu (jika belum install)
+install git terlebih dahulu (jika belum install):
 ```
 sudo apt install git
 ```
+Download atau clone repo gitnya terlebih dahulu:
 ```
 git clone https://github.com/arifzxc/nextcloud
 ```
-masuk ke dalam directory terlebih dahulu
+masuk ke dalam directory terlebih dahulu:
 ```
 cd nextcloud/whithshell/
 ```
-Menjalankan shell untuk linux ubuntu:
+Menjalankan bash shell untuk linux ubuntu:
 ```
 sh linuxubuntu.sh
 ```
@@ -24,7 +26,7 @@ atau
 ```
 ./linuxubuntu.sh
 ```
-Menjalankan shell untuk linux debian:
+Menjalankan bash shell untuk linux debian:
 ```
 sh linuxdebian.sh
 ```
@@ -35,7 +37,7 @@ atau
 
 2. Dengan command line, silahkan ikuti perintah dibawah ini 
 
-# Download extension yang dibutuhkan 
+# Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas)
 Linux Ubuntu, biasanya menggunakan mysql
 
 ```
