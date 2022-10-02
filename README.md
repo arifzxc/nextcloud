@@ -5,9 +5,19 @@ Install Nextcloud Armbian
 # 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
    
 Cara menjalankannya:
+
+Disarankan masuk sebagai superuser (root) terlebih dahulu, agar mempermudah ketika proses penginstalan.
+Dengan perintah:
+```
+sudo su
+```
+atau
+```
+su
+```
 install git terlebih dahulu (jika belum install):
 ```
-sudo apt install git
+apt install git
 ```
 Download atau clone repo gitnya terlebih dahulu:
 ```
@@ -21,17 +31,9 @@ cd nextcloud/bashshell/
 ```
 sh linuxubuntu.sh
 ```
-atau
-```
-./linuxubuntu.sh
-```
 <b><h3> Menjalankan bash shell untuk linux debian : </b></h3>
 ```
 sh linuxdebian.sh
-```
-atau
-```
-./linuxdebian.sh
 ```
 
 # 2. Dengan command line, silahkan ikuti perintah dibawah ini 
