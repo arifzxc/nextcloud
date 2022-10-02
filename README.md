@@ -1,7 +1,7 @@
 # nextcloud
 Install Nextcloud Armbian
 
-# Bahan-bahan
+# Download extension yang dibutuhkan 
 Linux Ubuntu, biasanya menggunakan mysql
 
 ```
@@ -11,7 +11,7 @@ php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick git php-zip php-mbstring  
 ```
 
-Linux Debian, Biasanya Menggunakan mariadb
+Linux Debian, biasanya menggunakan mariadb
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
@@ -23,7 +23,7 @@ php-bz2 php-xml imagemagick git php-zip php-mbstring
 ```
 wget https://download.nextcloud.com/server/releases/latest.zip
 ```
-Copy file yang sudah didownload ke /var/www/html/
+Copy file yang sudah di download ke /var/www/html/
 contoh:
 ```
 cp latest.zip /var/www/html/
