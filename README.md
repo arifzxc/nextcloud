@@ -1,10 +1,10 @@
 # Nextcloud
 Install Nextcloud Armbian
 
-# Disini saya mempunyai 2 pilihan
+# Disini saya mempunyai 2 pilihan penginstalan
 # 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
    
-<b><h3> Cara menjalankannya: </b></h3>
+<b><h3> Cara menjalankannya : </b></h3>
 
 <b>Disarankan masuk sebagai superuser (root) terlebih dahulu, agar mempermudah ketika proses penginstalan.
 
