@@ -16,7 +16,7 @@ git clone https://github.com/arifzxc/nextcloud
 ```
 masuk ke dalam directory terlebih dahulu:
 ```
-cd nextcloud/whithshell/
+cd nextcloud/bashshell/
 ```
 Menjalankan bash shell untuk linux ubuntu:
 ```
