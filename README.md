@@ -10,6 +10,7 @@ Nextcloud menawarkan sinkronisasi file lokal dan teknologi kolaborasi online ter
 Solusi mandiri kami memastikan Anda tahu di mana data berada, siapa yang memiliki akses, dan bahkan meta-data tidak bocor.
 
 # Disini saya mempunyai 2 pilihan penginstalan
+
 # 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
    
 <b><h3> Cara menjalankannya : </b></h3>
