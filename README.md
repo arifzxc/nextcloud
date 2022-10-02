@@ -1,5 +1,12 @@
 # Nextcloud
-Install Nextcloud Armbian
+<b>Nextcloud itu apa?</b>
+Nextcloud adalah perangkat lunak peladen klien untuk membuat dan menggunakan layanan hos berkas.
+
+NextCloud membantu Anda untuk memperoleh: rumah yang aman untuk semua data Anda. Amankan, di bawah kendali Anda dan kembangkan secara terbuka, transparan, dan dapat dipercaya.
+
+Nextcloud menawarkan sinkronisasi file lokal dan teknologi kolaborasi online terkemuka di industri. Keahlian kami dalam menggabungkan kenyamanan dan kemudahan penggunaan solusi tingkat konsumen seperti Dropbox dan Google Drive dengan keamanan, privasi, dan kebutuhan kontrol bisnis.
+
+Solusi mandiri kami memastikan Anda tahu di mana data berada, siapa yang memiliki akses, dan bahkan meta-data tidak bocor.
 
 # Disini saya mempunyai 2 pilihan penginstalan
 # 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
