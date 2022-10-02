@@ -73,6 +73,14 @@ Kasih permission ke foldernya
 chmod -R 755 nextcloud/
 chown -R www-data:www-data nextcloud/
 ```
+restart apache2
+```
+/etc/init.d/apache2 restart
+```
+atau 
+```
+sudo systemctl restart apache2.service
+```
 
 Selesai, tinggal akses ke web lokal dan isi data yang dibutuhkan.
 Bisa diakses menggunakan ip address yang didapat oleh device yang digunakan untuk install nextcloud.
