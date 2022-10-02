@@ -1,8 +1,8 @@
 # nextcloud
 Install Nextcloud Armbian
 
-Disini saya mempunyai 2 pilihan
-1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan
+# Disini saya mempunyai 2 pilihan
+# 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan
    auto selesai dengan sendirinya.
    
 Cara menjalankannya:
@@ -35,9 +35,9 @@ atau
 ./linuxdebian.sh
 ```
 
-2. Dengan command line, silahkan ikuti perintah dibawah ini 
+# 2. Dengan command line, silahkan ikuti perintah dibawah ini 
 
-# Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas)
+<b> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b>
 Linux Ubuntu, biasanya menggunakan mysql
 
 ```
@@ -55,25 +55,25 @@ php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick git php-zip php-mbstring
 ```
 
-# Download File Nextcloud
+Download File Nextcloud
 ```
 wget https://download.nextcloud.com/server/releases/latest.zip
 ```
 Copy file yang sudah di download ke /var/www/html/
-contoh:
+contoh :
 ```
 cp latest.zip /var/www/html/
 ```
-Unzip file latest.zip
+Unzip file latest.zip :
 ```
 unzip latest.zip
 ```
-Kasih permission ke foldernya
+Kasih permission ke foldernya :
 ```
 chmod -R 755 nextcloud/
 chown -R www-data:www-data nextcloud/
 ```
-restart apache2
+restart apache2 :
 ```
 /etc/init.d/apache2 restart
 ```
