@@ -36,9 +36,9 @@ atau
 
 # 2. Dengan command line, silahkan ikuti perintah dibawah ini 
 
-<b> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b>
+<b><h2> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b></h2>
 
-Linux Ubuntu, biasanya menggunakan mysql
+<b><h3> Linux Ubuntu, biasanya menggunakan mysql : </b></h3>
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
@@ -46,7 +46,7 @@ php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick git php-zip php-mbstring  
 ```
 
-Linux Debian, biasanya menggunakan mariadb
+<b><h3> Linux Debian, biasanya menggunakan mariadb : </b></h3>
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
