@@ -1,6 +1,6 @@
 # Masuk sebagai superuser (root) terlebih dahulu, agar mempermudah proses instalasi. 
 
-wget https://download.nextcloud.com/server/releases/latest.zip &
+wget https://download.nextcloud.com/server/releases/latest.zip
 
 apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
