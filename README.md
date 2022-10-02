@@ -1,4 +1,4 @@
-# nextcloud
+# Nextcloud
 Install Nextcloud Armbian
 
 # Disini saya mempunyai 2 pilihan
@@ -16,15 +16,15 @@ atau
 ```
 su
 ```
-install git terlebih dahulu (jika belum install):
+install git terlebih dahulu (jika belum install) :
 ```
 apt install git
 ```
-Download atau clone repo gitnya terlebih dahulu:
+Download atau clone repo gitnya terlebih dahulu :
 ```
 git clone https://github.com/arifzxc/nextcloud
 ```
-masuk ke dalam directory terlebih dahulu:
+masuk ke dalam directory terlebih dahulu :
 ```
 cd nextcloud/bashshell/
 ```
@@ -46,7 +46,7 @@ sh linuxdebian.sh
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
 php-common libapache2-mod-php php-fpm \
-php-bz2 php-xml imagemagick git php-zip php-mbstring  
+php-bz2 php-xml imagemagick php-zip php-mbstring  
 ```
 
 <b><h3> Linux Debian, biasanya menggunakan mariadb : </b></h3>
@@ -54,7 +54,7 @@ php-bz2 php-xml imagemagick git php-zip php-mbstring
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
 php-common libapache2-mod-php php-fpm \
-php-bz2 php-xml imagemagick git php-zip php-mbstring
+php-bz2 php-xml imagemagick php-zip php-mbstring
 ```
 
 Download File Nextcloud
@@ -90,6 +90,7 @@ sudo systemctl restart apache2.service
 
 Selesai, tinggal akses ke web lokal dan isi data yang dibutuhkan.
 Bisa diakses menggunakan ip address yang didapat oleh device yang digunakan untuk install nextcloud.
+
 Contoh menggunakan ip address lokal:
 ```
 192.168.1.72/nextcloud
