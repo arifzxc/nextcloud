@@ -2,8 +2,7 @@
 Install Nextcloud Armbian
 
 # Disini saya mempunyai 2 pilihan
-# 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan
-   auto selesai dengan sendirinya.
+# 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya.
    
 Cara menjalankannya:
 install git terlebih dahulu (jika belum install):
@@ -38,8 +37,8 @@ atau
 # 2. Dengan command line, silahkan ikuti perintah dibawah ini 
 
 <b> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b>
-Linux Ubuntu, biasanya menggunakan mysql
 
+Linux Ubuntu, biasanya menggunakan mysql
 ```
 sudo apt-get install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
