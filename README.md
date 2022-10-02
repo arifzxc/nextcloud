@@ -17,7 +17,7 @@ masuk ke dalam directory terlebih dahulu:
 ```
 cd nextcloud/bashshell/
 ```
-Menjalankan bash shell untuk linux ubuntu:
+<b><h3> Menjalankan bash shell untuk linux ubuntu : </b> </h3>
 ```
 sh linuxubuntu.sh
 ```
@@ -25,7 +25,7 @@ atau
 ```
 ./linuxubuntu.sh
 ```
-Menjalankan bash shell untuk linux debian:
+<b><h3> Menjalankan bash shell untuk linux debian : </b></h3>
 ```
 sh linuxdebian.sh
 ```
