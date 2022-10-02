@@ -65,7 +65,7 @@ cp latest.zip /var/www/html/
 ```
 Masuk ke directory web server :
 ```
-cd /var/www/html
+cd /var/www/html/
 ```
 Unzip file latest.zip :
 ```
