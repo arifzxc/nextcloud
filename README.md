@@ -1,5 +1,6 @@
 # Nextcloud
 <b>Nextcloud itu apa?</b>
+
 Nextcloud adalah perangkat lunak peladen klien untuk membuat dan menggunakan layanan hos berkas.
 
 NextCloud membantu Anda untuk memperoleh: rumah yang aman untuk semua data Anda. Amankan, di bawah kendali Anda dan kembangkan secara terbuka, transparan, dan dapat dipercaya.
