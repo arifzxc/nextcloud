@@ -2,7 +2,6 @@
 <b>Nextcloud itu apa?</b>
 
 Nextcloud adalah perangkat lunak peladen klien untuk membuat dan menggunakan layanan hos berkas.
-
 NextCloud membantu Anda untuk memperoleh: rumah yang aman untuk semua data Anda. Amankan, di bawah kendali Anda dan kembangkan secara terbuka, transparan, dan dapat dipercaya.
 
 Nextcloud menawarkan sinkronisasi file lokal dan teknologi kolaborasi online terkemuka di industri. Keahlian kami dalam menggabungkan kenyamanan dan kemudahan penggunaan solusi tingkat konsumen seperti Dropbox dan Google Drive dengan keamanan, privasi, dan kebutuhan kontrol bisnis.
