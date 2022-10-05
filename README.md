@@ -204,7 +204,7 @@ localhost (default)
 ```
 
    
-Jika sudah pencet <b>Finisth setup</b>, tunggu hinggga proses selesai. Nanti akan otomatis dialihkan ke halaman menu utama nextcloud.
+Jika sudah mengisi data semua, selanjutnya klik <b>Finish setup</b>, tunggu hinggga proses selesai. Nanti akan otomatis dialihkan ke halaman menu utama nextcloud.
 
 <br><br>   
 <b>Selesai, semoga bermanfaat tutorial installasi nextcloud yang sudah saya bikin.<br>
