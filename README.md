@@ -11,13 +11,13 @@ Solusi mandiri kami memastikan Anda tahu di mana data berada, siapa yang memilik
 
 # DISINI SAYA MEMPUNYAI 2 PILIHAN PENGINSTALLAN
 
-<b><h2> 1. Instalasi dengan bash shell (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
+<b><h2> 1. Instalasi dengan shell script (.sh) instalasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
    
-<b><h3> Cara menjalankannya : </b></h3>
+<b><h3> Cara menjalankannya: </b></h3>
 
 <b>Disarankan masuk sebagai superuser (root) terlebih dahulu, agar mempermudah ketika proses penginstalan.
 
-Dengan perintah : </b>
+Dengan perintah: </b>
 ```
 sudo su
 ```
@@ -25,32 +25,32 @@ atau
 ```
 su
 ```
-install git terlebih dahulu (jika belum install) :
+install git terlebih dahulu (jika belum install):
 ```
 apt install git
 ```
-Download atau clone repo gitnya terlebih dahulu :
+Download atau clone repo gitnya terlebih dahulu:
 ```
 git clone https://github.com/arifzxc/nextcloud
 ```
-masuk ke dalam directory terlebih dahulu :
+masuk ke dalam directory terlebih dahulu:
 ```
 cd nextcloud/bashshell/
 ```
-<b><h3> Menjalankan bash shell untuk linux ubuntu : </b> </h3>
+Menjalankan shell script untuk linux ubuntu:
 ```
 sh linuxubuntu.sh
 ```
-<b><h3> Menjalankan bash shell untuk linux debian : </b></h3>
+Menjalankan shell script untuk linux debian:
 ```
 sh linuxdebian.sh
 ```
 
 <b><h2> 2. Dengan command line copy paste manual, silahkan ikuti perintah dibawah ini. </b></h2>
 
-<b><h3> Download extension yang dibutuhkan (minimal menggunakan php versi 7.4 keatas) </b></h3>
+<b><h3> Download extension yang dibutuhkan (minimal menggunakan php versi 7.3 keatas) </b></h3>
 
-<b> Linux Ubuntu, biasanya menggunakan mysql: </b>
+Linux Ubuntu, biasanya menggunakan mysql:
 ```
 sudo apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
@@ -59,7 +59,7 @@ php-bz2 php-xml imagemagick php-zip php-mbstring -y
 
 ```
 
-<b> Linux Debian, biasanya menggunakan mariadb: </b>
+Linux Debian, biasanya menggunakan mariadb:
 ```
 sudo apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
@@ -77,26 +77,53 @@ contoh :
 ```
 cp latest.zip /var/www/html/
 ```
-Masuk ke directory web server :
+Masuk ke directory web server:
 ```
 cd /var/www/html/
 ```
-Unzip file latest.zip :
+Unzip file latest.zip:
 ```
 unzip latest.zip
 ```
-Kasih permission ke foldernya :
+Kasih permission ke foldernya:
 ```
 chmod -R 755 nextcloud/
 chown -R www-data:www-data nextcloud/
 ```
-restart apache2 :
+restart apache2:
 ```
 /etc/init.d/apache2 restart
 ```
 atau 
 ```
 sudo systemctl restart apache2.service
+```
+# MENGUBAH KECEPATAN UPLOAD, DLL. UNTUK WEB SERVER APACHE2 AGAR LEBIH STABIL
+Silahkan sesuaikan dengan versi php yang sudah diinstall<br>
+untuk cek versi php, bisa menggunakan perintah:
+```
+php -v
+php --version
+````
+edit menggunakan perintah:
+```
+sudo vi /etc/php/7.3/apache2/php.ini
+sudo vi /etc/php/7.4/apache2/php.ini
+```
+atau
+```
+sudo nano /etc/php/7.3/apache2/php.ini
+sudo nano /etc/php/7.4/apache2/php.ini
+```
+
+cari text dan ubah sesuai dengan contoh dibawah ini:
+```
+upload_max_filesize = 100M
+post_max_size = 48M
+memory_limit = 512M
+max_execution_time = 600
+max_input_vars = 3000
+max_input_time = 1000
 ```
 
 # MENGATUR DATABASE
@@ -108,7 +135,7 @@ mysql
 SET PASSWORD FOR root@localhost=PASSWORD('password');
 exit
 ```
-SELANJUTNYA... <br>
+Selanjutnya... <br>
 Masuk mysql dengan perintah dibawah ini, kemudian masukan password yang barusan dibuat diatas:
 ```
 mysql -u root -p
@@ -124,11 +151,11 @@ grant CREATE, INSERT, SELECT, DELETE, UPDATE on nextcloud.* to nextcloud identif
 exit
 
 ```
-Restart linux ubuntu (mysql) :
+Restart linux ubuntu (mysql):
 ```
 /etc/init.d/mysql restart
 ```
-Restart linux debian (mariadb) :
+Restart linux debian (mariadb):
 ```
 /etc/init.d/mariadb restart
 ```
@@ -137,17 +164,17 @@ Restart linux debian (mariadb) :
 
 Bisa diakses menggunakan ip address yang didapat oleh device yang digunakan untuk install nextcloud.
 
-Cek ip address menggunakan :
+Cek ip address menggunakan:
 ```
 ifconfig
 ```
-atau di linux debian menggunakan salah satu dibawah ini :
+atau di linux debian menggunakan salah satu dibawah ini:
 ```
 /sbin/ifconfig
 /usr/sbin/ifconfig
 ```
 
-Contoh hasil ifconfig :
+Contoh hasil ifconfig:
 ```
 eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether de:31:23:0d:b1:e3  txqueuelen 1000  (Ethernet)
@@ -185,7 +212,7 @@ Ip address yang didapat oleh device adalah: <b>192.168.1.73</b> maka untuk menga
 
 Contoh cara pengisian untuk membuat user akun baru sebagai admin (mengakses penuh dilayanan nextcloud).<br>
 username dan password disesuaikan sendiri ya... <br>
-Create an admin account : 
+Create an admin account: 
 ```
 Username: admin
 Password: admin123
@@ -206,7 +233,8 @@ localhost (default)
    
 Jika sudah mengisi data semua, selanjutnya klik <b>Finish setup</b>, tunggu hinggga proses selesai. Nanti akan otomatis dialihkan ke halaman menu utama nextcloud.
 
-<br><br>   
+<br>
 <b>Selesai, semoga bermanfaat tutorial installasi nextcloud yang sudah saya bikin.<br>
 Mohon maaf jika ada kata-kata yang kurang nyambung atau lainnya.<br>
 Terima Kasih...</b>
+
