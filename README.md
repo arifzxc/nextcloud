@@ -35,15 +35,15 @@ git clone https://github.com/arifzxc/nextcloud
 ```
 masuk ke dalam directory terlebih dahulu:
 ```
-cd nextcloud/bashshell/
+cd nextcloud/
 ```
 Menjalankan shell script untuk linux ubuntu:
 ```
-sh linuxubuntu.sh
+sh ubuntu.sh
 ```
 Menjalankan shell script untuk linux debian:
 ```
-sh linuxdebian.sh
+sh debian.sh
 ```
 
 <b><h2> 2. Dengan command line copy paste manual, silahkan ikuti perintah dibawah ini. </b></h2>
@@ -52,7 +52,7 @@ sh linuxdebian.sh
 
 Linux Ubuntu, biasanya menggunakan mysql:
 ```
-sudo apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
+sudo apt install apache2 unzip ntfs-3g php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mysql-client mysql-server libphp-adodb libgd-dev php-pear \
 php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick php-zip php-mbstring -y
@@ -61,7 +61,7 @@ php-bz2 php-xml imagemagick php-zip php-mbstring -y
 
 Linux Debian, biasanya menggunakan mariadb:
 ```
-sudo apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl \
+sudo apt install apache2 unzip ntfs-3g php php-xmlrpc php-mysql php-gd php-cli php-curl \
 mariadb-client mariadb-server libphp-adodb libgd-dev php-pear \
 php-common libapache2-mod-php php-fpm \
 php-bz2 php-xml imagemagick php-zip php-mbstring -y
