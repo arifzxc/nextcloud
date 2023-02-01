@@ -233,6 +233,28 @@ localhost (default)
    
 Jika sudah mengisi data semua, selanjutnya klik <b>Finish setup</b>, tunggu hinggga proses selesai. Nanti akan otomatis dialihkan ke halaman menu utama nextcloud.
 
+## Fix error log 
+```
+vi /etc/php/7.4/apache2/php.ini
+```
+change <b>; output_buffering = 4096</b> to
+```
+output_buffering = Off
+```
+
+```
+vi /var/www/html/nextcloud/.htaccess
+```
+input
+```
+php_flag “output_buffering” Off
+```
+restart apache2
+```
+/etc/init.d/apache2 restart
+```
+
+
 <br>
 <b>Selesai, semoga bermanfaat tutorial installasi nextcloud yang sudah saya bikin.<br>
 Mohon maaf jika ada kata-kata yang kurang nyambung atau lainnya.<br>
