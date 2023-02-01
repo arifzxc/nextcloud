@@ -233,7 +233,7 @@ localhost (default)
    
 Jika sudah mengisi data semua, selanjutnya klik <b>Finish setup</b>, tunggu hinggga proses selesai. Nanti akan otomatis dialihkan ke halaman menu utama nextcloud.
 
-## Fix error log 
+## Fix error: PHP configuration option output_buffering must be disabled
 ```
 vi /etc/php/7.4/apache2/php.ini
 ```
@@ -241,6 +241,7 @@ change <b>; output_buffering = 4096</b> to
 ```
 output_buffering = Off
 ```
+<br>
 
 ```
 vi /var/www/html/nextcloud/.htaccess
