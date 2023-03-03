@@ -130,6 +130,21 @@ max_input_time = 1000
 
 Setup root password<br>
 copy perintah dibawah ini dan paste dinotepade dahulu, edit kata yang ada didalam kurung ini <b>('password')</b> dengan password yang ingin kalian bikin, kemudian copy semua perintah yang tadi sudah diubah passwordnya, dan paste diterminal linux.
+
+Create user database (optional) Bisa diskip jika ingin menggunakan user root
+```
+mysql -p -u root
+```
+```
+CREATE USER 'arifzxc'@'localhost' IDENTIFIED BY '<password>';
+```
+```
+GRANT ALL PRIVILEGES ON *.* TO 'arifzxc'@'localhost' WITH GRANT OPTION;
+
+exit
+```
+
+
 ```
 mysql
 SET PASSWORD FOR root@localhost=PASSWORD('password');
